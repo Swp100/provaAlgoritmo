@@ -1,0 +1,59 @@
+estrutura de repetição
+
+Comandos de repetição:
+
+
+for <variável de iteração> in <sequencia>
+
+{1,2,3}
+{(cv), (cv)}
+(1,2,3)
+[1,2,3]
+<1,2,3,4>
+'Python' str #string
+
+4 espaços para iniciar o comando
+
+Comando "while"
+
+while <expressão lógica> : #enquanto a expressão for true o camando será repetido
+
+exemplo:
+i=1
+while i<11
+    print(i, "x 8 = ", i*8)
+    i=i+1
+
+para sair do loop infinito usar o comando break
+
+
+tp = (2,3,4) tp #tupla
+
+
+
+IMC de 05 pessoas:
+
+soma_altura = 0
+soma_peso = 0
+maior_imc = -1
+menor_imc = 100
+for i in range(1, 6):
+    peso = float(input(f"Digite o peso da {i}a pessoa : "))
+    altura = float(input(f"Digite a altura da {i}a pessoa: "))
+    imc = peso / (altura * altura)
+    soma_altura += altura
+    soma_peso += peso
+    if maior_imc < imc:
+        maior_imc = imc
+    if menor_imc > imc:
+        menor_imc = imc
+peso_medio = soma_peso / 5
+altura_media = soma_altura / 5
+print(f"A altura média é {altura_media}")
+print(f"O peso médio é {peso_medio}")
+print(f"O maior imc é {maior_imc}")
+print(f"O menor imc é {menor_imc}")
+
+
+
+
